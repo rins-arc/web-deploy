@@ -25,9 +25,9 @@ html, body {
 .whatsapp-icon {
   z-index: 9999; 
   position: fixed;
-  bottom: 20px;  /* Distance from the bottom of the screen */
-  right: 20px;   /* Distance from the right of the screen */
-  background-color: #25D366;  /* WhatsApp green color */
+  bottom: 20px; 
+  right: 20px; 
+  background-color: #25D366; 
   padding: 10px;
   border-radius: 50%;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
@@ -39,9 +39,17 @@ html, body {
 }
 
 .whatsapp-icon:hover {
-  transform: scale(1.1);  /* Make the icon slightly bigger on hover */
+  transform: scale(1.1);  
 }
 
 .whatsapp-icon:focus {
   outline: none;
+}
+
+img {
+  filter: brightness(1); 
+}
+
+.dark img {
+  filter: brightness(1); 
 }

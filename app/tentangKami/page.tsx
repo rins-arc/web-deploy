@@ -26,7 +26,7 @@ const tentangKami = () => {
             </section>
 
             <main>
-                <section className="container p-8 mx-auto">
+                <section className="space-y-10 container p-8 mx-auto">
                         <div className="flex flex-col md:flex-row mx-auto justify-items-center items-center">
                             <div className=" md:w-1/2 mb-6 md:mb-0">
                                 <CldImage src="https://res.cloudinary.com/doqmcufwf/image/upload/v1734159475/Foto_2_zohc53.jpg" alt="iamge3" width={600} height={400} className="w-full h-full object-cover" />
@@ -66,7 +66,7 @@ const tentangKami = () => {
                                 alt="Description of image"
                                 />
                         </div>
-                        <div className="w-full md:w-1/2 md:p-20 lg:px-12  py-12 px-8">
+                        <div className="w-full md:w-1/2 md:p-20 lg:px-12  py-16 px-8">
                             <h1 className="text-center text-2xl font-bold mb-4 text-gray-600 ">Visi Kami</h1>
                             <p className="text-center md:text-left mb-8 text-gray-600">Menjadi perusahaan konsultan penyedia jasa yang terpercaya, profesional dan berdaya saing unggul.</p>
                             <h2 className="text-center text-2xl font-bold mb-4 text-gray-600">Misi Kami</h2>
@@ -89,7 +89,7 @@ const tentangKami = () => {
                     <div className="bg-[#5a7c99] my-auto">
                         <div className="items-center flex flex-col md:flex-row">
                         <div className="relative md:w-1/2 md:pl-6 flex items-center justify-start">
-                        <div className="mx-6 lg:mx-auto w-full py-12 px-8">
+                        <div className="mx-6 lg:mx-auto w-full py-24 px-8">
                         <h2 className="text-center text-2xl font-bold mb-4 text-white">Direksi</h2>
                                 <ul className="list-none leading-8 mt-4 text-white">
                                     <li className="mb-2"><strong>Direktur :</strong> Agung Nugraha, S.Pd</li>
@@ -116,7 +116,7 @@ const tentangKami = () => {
                     </div>
                 </section>
 
-                <section className="container mx-auto px-6 mt-12 min-h-screen">
+                <section className="container mx-auto px-6 mt-12 py-24">
                     <div className="bg-white p-8">
                         <h2 className="text-[25px] font-bold mb-12 text-center">Rins Architect Team</h2>
                         <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
