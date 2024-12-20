@@ -25,8 +25,8 @@ const Kontak = () => {
         </div>
       </section>
 
-      <section className="container mx-auto py-16 px-10 grid grid-cols-1 md:grid-cols-2 gap-12">
-        <div className="container text-gray-900 lg:px-14 md:pt-16 ">
+      <section className="container mx-auto py-16 grid grid-cols-1 md:grid-cols-2 gap-12">
+        <div className="container text-gray-900 px-14 md:pt-16 ">
           <h2 className="lg:justify-items-start text-3xl font-bold mb-6">
             Mari Wujudkan Ide Anda Bersama Kami!
           </h2>

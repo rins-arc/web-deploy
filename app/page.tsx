@@ -18,10 +18,12 @@ export default function Home() {
   return (
     <div className="width-[100%]">
       <section className="bg-gray-100 text-center">
-        <div
-          className="min-h-screen bg-cover bg-center relative bg-fixed"
-          style={{ backgroundImage: "url('https://res.cloudinary.com/doqmcufwf/image/upload/v1734062822/Background_ab7cmf.png')" }}
-        >
+      <div
+        className="min-h-screen bg-cover bg-center relative bg-no-repeat lg:bg-fixed"
+        style={{
+          backgroundImage: "url('https://res.cloudinary.com/doqmcufwf/image/upload/v1734062822/Background_ab7cmf.png')",
+        }}
+      >
           <div
             ref={ref}
             className={`absolute top-0 left-0 w-full h-full flex justify-center md:justify-start items-center px-4 md:px-10 lg:px-20 ${inView ? "animate-fade-in" : ""}`}
@@ -67,22 +69,26 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="min-h-screen lg:py-20 sm:pt-0">
+      <section className="lg:py-20 sm:pt-0">
       <div className="mt-8 mx-auto container flex flex-wrap items-center justify-center">
         <motion.div
           initial={{ x: -100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
           transition={{ duration: 1, type:"spring", stiffness: 50 }}
           viewport={{ once: false }}>
-        <div className="w-full lg:w-[500px] flex justify-center lg:justify-end mb-8 lg:mb-0">
+        <div className="w-full flex justify-center lg:justify-end mb-8 lg:mb-0">
+ 
           <CldImage
             src="https://res.cloudinary.com/doqmcufwf/image/upload/v1734062818/img2_cgeo6d.png"
             alt="Architect working"
             width={600}
             height={500}
-            className="w-full h-full object-cover max-w-full lg:max-w-md "
+            className="sm:w-[80%] md:w-[70%] lg:w-[600px] sm:h-[300px] md:h-[400px] lg:h-[400px] object-cover max-w-full"
           />
         </div>
+
+
+
 
         </motion.div>
       <div className="w-full lg:w-1/2 text-center lg:text-left lg:pl-20 lg:pr-8 mb-8 lg:mb-0">
@@ -97,10 +103,10 @@ export default function Home() {
               TENTANG KAMI
             </h3>
           </div>
-          <h2 className="text-2xl font-bold text-gray-800 mx-6 lg:mx-auto">
+          <h2 className="text-2xl sm:text-xl font-bold text-gray-800 mx-6 lg:mx-auto">
             Mewujudkan Impian Anda dengan Keunggulan dan Profesionalisme
           </h2>
-          <p className="leading-8 mt-4 text-gray-600 mx-6 lg:mx-auto">
+          <p className="text-left leading-8 mt-4 text-gray-600 mx-6 lg:mx-auto">
             CV. RINS ARCHITECT adalah perusahaan konsultan perencana dan
             kontraktor yang berdiri sejak Januari 2012. Dengan pengalaman
             lebih dari satu dekade, kami menyediakan layanan mulai dari Jasa

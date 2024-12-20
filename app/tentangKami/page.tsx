@@ -32,7 +32,7 @@ const tentangKami = () => {
                                 <CldImage src="https://res.cloudinary.com/doqmcufwf/image/upload/v1734159475/Foto_2_zohc53.jpg" alt="iamge3" width={600} height={400} className="w-full h-full object-cover" />
                             </div>
                             <div className="relative md:w-1/2 md:pl-6 flex items-center lg:justify-start sm:justify-items-center">
-                            <div className="mx-6 lg:px-8 lg:mx-auto text-center lg:text-left lg:justify-start sm:justify-items-center">
+                            <div className="lg:px-8 lg:mx-auto text-left lg:justify-start sm:justify-items-center">
                                 <p className="font-normal leading-8 mt-4 text-gray-600 mx-6 lg:mx-auto"> CV. RINS ARCHITECT adalah perusahaan yang bergerak di bidang jasa konsultan perencana dan kontraktor. Pelayanan kami meliputi Desain Arsitektur, Desain Interior, Desain Landskap, Desain Tata Kota, Perencanaan Struktur dan MEP, Jasa Perijinan dan Jasa Fungsi Kelaikan Bangunan serta Kontraktor bangunan sipil. Team kami terdiri dari Arsitek, Teknik Sipil, dan tenaga ahli profesional lainnya.</p>
                                 </div>
                             </div>
@@ -40,11 +40,11 @@ const tentangKami = () => {
                 </section>
 
                     <div className="w-full bg-[#5A7C99] py-24 mx-auto">
-                        <div className=" px-6 md:mx-12 md:px-24 text-center md:text-left">
-                            <p className="font-normal leading-8 mt-4 text-white mx-6 lg:mx-auto">
+                        <div className="md:mx-12 md:px-24 text-left md:text-left">
+                            <p className="font-normal leading-8 mt-4 text-white mx-10 px-2 lg:mx-auto">
                                 CV. RINS ARCHITECT telah berdiri sejak Januari 2012 dengan nama SERRA ARCHITECT dan PT. ASP (Anugerah Sakhaserra Permai). Kami sudah berpengalaman baik dibidang desain, build dan juga perijinan.
                             </p>
-                            <p className="font-normal leading-8 mt-4 text-white mx-6 lg:mx-auto">
+                            <p className="font-normal leading-8 mt-4 text-white mx-10 px-2 lg:mx-auto">
                                 Kami melayani mulai dari nol, dari yang belum terwujud kita wujudkan, mulai dari yang belum terhitung kita hitungkan, mulai dari yang belum ada gambar kita gambarkan, mulai dari yang belum ada ijin kita layani untuk pengurusan perijinannya.
                             </p>
                         </div>

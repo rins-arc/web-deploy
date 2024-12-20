@@ -7,7 +7,7 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <div>
+    <footer>
       <motion.section className="relative"
         initial={{ y: 100, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
@@ -22,9 +22,9 @@ const Footer = () => {
           </div>
         <div className="absolute inset-0 bg-gradient-to-r from-black to-transparent opacity-50"></div>
         
-        <div className="absolute inset-0 flex items-center justify-center">
+        <div className="absolute inset-0 flex items-center justify-center px-6">
           <div className="text-center">
-            <motion.h2 className="text-3xl font-bold text-white"
+            <motion.h2 className="text-3xl sm:text-2xl font-bold text-white"
               initial={{ x: 100, opacity: 0 }}
               whileInView={{ x: 0, opacity: 1 }}
               transition={{ duration: 1, type: "spring", stiffness: 50, delay: 0.2 }}>
@@ -51,7 +51,7 @@ const Footer = () => {
         </div>
       </motion.section>
 
-      <div className="bg-gray-100 py-12">
+      <div className="bg-gray-100 py-12 pb-20">
         <div className="container mx-auto px-10">
           <div className="flex flex-wrap justify-between">
             
@@ -116,7 +116,14 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    </div>
+    <section className="w-full bg-gray-800 text-white py-4">
+      <div className="container mx-auto text-center">
+        <p className="text-sm">
+          &copy; {new Date().getFullYear()} Rins Architect. All Rights Reserved.
+        </p>
+      </div>
+    </section>
+    </footer>
   );
 };
 

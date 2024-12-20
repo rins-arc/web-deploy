@@ -4,6 +4,7 @@ import "./globals.css";
 import Navbar from './components/navbar';
 import Footer from './components/footer';
 import '@fortawesome/fontawesome-free/css/all.min.css';
+import WhatsAppIcon from './components/WhatsAppIcon';
 
 export const metadata: Metadata = {
   title: "Rins Architect",
@@ -17,6 +18,7 @@ const Layout = ({ children }: { children: ReactNode }) => {
     <html>
       
       <body>
+      <WhatsAppIcon />
       <header>
         <Navbar />
       </header>

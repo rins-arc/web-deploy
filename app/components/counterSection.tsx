@@ -23,9 +23,9 @@ const CounterSection = () => {
   };
 
   useEffect(() => {
-    animateCounter(setCount1, 12, 1500);
-    animateCounter(setCount2, 100, 1500);
-    animateCounter(setCount3, 98, 1500);
+    animateCounter(setCount1, 12, 2000);
+    animateCounter(setCount2, 100, 2000);
+    animateCounter(setCount3, 98, 2000);
   }, []);
 
   return (
@@ -33,23 +33,24 @@ const CounterSection = () => {
       initial={{ y: 100, opacity: 0 }}
       whileInView={{ y: 0, opacity: 1 }}
       transition={{ duration: 1, type: "spring", stiffness: 50 }}
+      className="px-2"
     >
       <div
-          className="bg-[#5A7C99] w-full max-w-[1040px] mt-20 mb-10 mx-auto flex justify-center rounded-full"
+          className="bg-[#5A7C99] w-full max-w-[1040px] mt-6 lg:mt-20 mb-16 mx-auto flex justify-center rounded-full"
         >
-       <div className="text-white rounded-lg p-6 w-full sm:w-auto mx-auto text-center">
+       <div className="text-white rounded-lg p-4 w-full sm:w-auto mx-auto text-center">
             <h3 className="lg:text-4xl text-3xl font-bold">{count1}+</h3>
-            <p className="lg:text-[14px] text-[12px] mt-2">Tahun Pengalaman</p>
+            <p className="lg:text-[14px] text-[10px] mt-2">Tahun Pengalaman</p>
           </div>
 
-          <div className="text-white rounded-lg p-6 w-full sm:w-auto mx-auto text-center">
+          <div className="text-white rounded-lg p-4 w-full sm:w-auto mx-auto text-center">
             <h3 className="lg:text-4xl text-3xl font-bold">{count2}+</h3>
-            <p className="lg:text-[14px] text-[12px] mt-2">Proyek Selesai</p>
+            <p className="lg:text-[14px] text-[10px] mt-2">Proyek Selesai</p>
           </div>
 
-          <div className="text-white rounded-lg p-6 w-full sm:w-auto mx-auto text-center">
+          <div className="text-white rounded-lg p-4 w-full sm:w-auto mx-auto text-center">
             <h3 className="lg:text-4xl text-3xl font-bold">{count3}%</h3>
-            <p className="lg:text-[14px] text-[12px] mt-2">Kepuasan Klien</p>
+            <p className="lg:text-[14px] text-[10px] mt-2">Kepuasan Klien</p>
           </div>
         </div>
     </motion.div>
