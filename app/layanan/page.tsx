@@ -35,7 +35,7 @@ const Layanan = () => {
             <div className="bg-[#5A7C99] text-white p-6 flex items-center justify-center flex-col">
               <i className="fas fa-home text-4xl"></i>
               <h2 className="text-xl font-bold text-white mt-4">Desain Hunian / Non Hunian</h2>
-              <p className="mt-2 text-white text-sm mb-4 ">
+              <p className="mt-2 text-white text-sm mb-4 text-center">
                 Rancang Hunian dan Bangunan Impian Anda
               </p>
             </div>
@@ -57,7 +57,7 @@ const Layanan = () => {
             <div className="bg-[#5A7C99] text-white p-6 flex items-center justify-center flex-col">
               <i className="fas fa-tools text-4xl"></i>
               <h2 className="text-xl font-bold text-white mt-4">Build / Pembangunan</h2>
-              <p className="mt-2 text-white text-sm mb-4 ">
+              <p className="mt-2 text-white text-sm mb-4 text-center">
                 Wujudkan Desain Anda Menjadi Nyata
               </p>
             </div>
@@ -79,7 +79,7 @@ const Layanan = () => {
             <div className="bg-[#5A7C99] text-white p-6 flex items-center justify-center flex-col">
               <i className="fas fa-file-alt text-4xl"></i>
               <h2 className="text-xl font-bold text-white mt-4">IMB / PBG</h2>
-              <p className="mt-2 text-white text-sm mb-4 ">
+              <p className="mt-2 text-white text-sm mb-4 text-center">
                 Pastikan Bangunan Anda Memenuhi Ketentuan Hukum
               </p>
             </div>
@@ -101,7 +101,7 @@ const Layanan = () => {
             <div className="bg-[#5A7C99] text-white p-6 flex items-center justify-center flex-col">
               <i className="fas fa-certificate text-4xl"></i>
               <h2 className="text-xl font-bold text-white mt-4">SLF (Sertifikat Laik Fungsi)</h2>
-              <p className="mt-2 text-white text-sm mb-4 ">
+              <p className="mt-2 text-white text-sm mb-4 text-center">
                 Jaminan Keamanan dan Kelaikan Fungsi Bangunan Anda
               </p>
             </div>
