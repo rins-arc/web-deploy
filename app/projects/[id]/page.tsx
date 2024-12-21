@@ -1,26 +1,30 @@
 // app/projects/[id]/page.tsx
 
 import { notFound } from 'next/navigation';
-import { getProjectById } from '../../data/project_page'; // Assuming this is the function that fetches project data
+import { getProjectById } from '../../data/project_page'; // Make sure this path is correct
 import Image from 'next/image';
 
-interface Project {
-  title: string;
-  description: string;
-  images: string[];
-}
+// // Define the Project type
+// interface Project {
+//   title: string;
+//   description: string;
+//   images: string[];
+// }
 
 const ProjectDetail = async ({ params }: { params: { id: string } }) => {
-  // Fetch project data using the id from params
-  const project = await getProjectById(params.id);
+  // Await the params to ensure it is resolved before accessing its properties
+  const { id } = await params;
 
-  // If project not found, show 404
+  // Fetch the project data by ID
+  const project = await getProjectById(id);
+
+  // If the project is not found, trigger a 404 page
   if (!project) {
     notFound();
   }
 
   return (
-    <div className="container mx-auto py-8 min-h-screen pt-24 px-6">
+    <div className="container mx-auto py-8 min-h-screen mt-24 px-6">
       <h1 className="text-4xl font-bold mb-4">{project.title}</h1>
       <p className="text-gray-600 mb-8">{project.description}</p>
 

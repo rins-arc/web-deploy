@@ -10,7 +10,7 @@ export interface Project {
   export const ProjectPage: Project[] = [
     {
       id: "1",
-      title: "Projek",
+      title: "Projek Arsitektur A",
       description: "Deskripsi singkat projek Arsitektur A.",
       category: "Arsitektur",
       images: [
